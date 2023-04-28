@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Label > renders correctly 1`] = `
+.c0 {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10;
+}
+
+<label
+  className="c0"
+  htmlFor="login"
+  size="small"
+>
+  login
+</label>
+`;

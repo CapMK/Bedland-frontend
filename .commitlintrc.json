@@ -1,0 +1,13 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "parserPreset": {
+    "parserOpts": {
+      "headerPattern": "^(\\w*)\\/BL-(\\w*): (.*)$"
+    }
+  },
+  "rules": {
+    "type-enum": [2, "always", ["feat", "fix", "chore", "perf", "refactor", "test","style"]],
+    "header-max-length": [2, "always", 100],
+    "subject-case": [0, "never", ["sentence-case", "start-case", "pascal-case", "upper-case"]]
+  }
+}

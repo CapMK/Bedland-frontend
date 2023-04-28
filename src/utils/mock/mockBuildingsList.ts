@@ -1,0 +1,55 @@
+import { Building } from 'types/shared.types';
+
+const mockBuildingsList: Building[] = [
+  {
+    id: '1',
+    version: 0,
+    createDate: '2023-02-13T00:00:00',
+    updateDate: '2023-02-14T00:00:00',
+    managerId: '1',
+    name: 'Business Garden Wrocław',
+    address: 'ul. Legnicka 48H, 54-202 Wrocław',
+    floors: '6',
+  },
+  {
+    id: '2',
+    version: 0,
+    createDate: '2023-02-15T00:00:00',
+    updateDate: '2023-02-14T00:00:00',
+    managerId: '2',
+    name: 'Business Garden Poznań',
+    address: 'ul. Kolorowa 6, 60-198 Poznań',
+    floors: '16',
+  },
+  {
+    id: '3',
+    version: 0,
+    createDate: '2023-02-11T00:00:00',
+    updateDate: '2023-02-14T00:00:00',
+    managerId: '3',
+    name: 'Business Park',
+    address: 'ul. Lublańska 38, 31-476 Kraków',
+    floors: '4',
+  },
+  {
+    id: '4',
+    version: 0,
+    createDate: '2023-02-17T00:00:00',
+    updateDate: '2023-02-14T00:00:00',
+    managerId: '4',
+    name: 'Business Garden',
+    address: 'ul. Wrocławska 152A, 45-835 Opole',
+    floors: '15',
+  },
+  {
+    id: '5',
+    version: 0,
+    createDate: '2023-02-14T00:00:00',
+    updateDate: '2023-02-14T00:00:00',
+    managerId: '1',
+    name: 'Business Garden Warszawa',
+    address: 'ul. Żwirki i Wigury 16a, 02-092 Warszawa',
+    floors: '2',
+  },
+];
+export default mockBuildingsList;

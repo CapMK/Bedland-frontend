@@ -1,0 +1,787 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > headers renders correctly for logged in manager 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.c1 {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 1rem;
+  height: 70px;
+  margin-right: 2rem;
+  min-width: 11.5rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<body>
+    <div>
+      <nav>
+        <div
+          class="c0"
+        >
+          <img
+            alt="Logo Bedland"
+            src="/src/assets/img/LogoManager.svg"
+          />
+          <div
+            class="c1"
+          >
+            <div
+              class="c2"
+              data-testid="dropdown"
+            >
+              <img
+                alt="profile"
+                class="c3"
+                size="2"
+                src="/src/assets/img/Avatar.svg"
+              />
+              <div
+                class="c4"
+              >
+                <h5
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+                />
+                <h5
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  manager
+                </h5>
+              </div>
+              <svg
+                data-testid="more-icon"
+                fill="none"
+                height="20"
+                viewBox="0 0 20 20"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask-more"
+                />
+                <path
+                  d="M10 9.99251V10.0075M10 4V4.01498M10 15.985V16"
+                  stroke="#1B1A1A"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.68161"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.c1 {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 1rem;
+  height: 70px;
+  margin-right: 2rem;
+  min-width: 11.5rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<div>
+    <nav>
+      <div
+        class="c0"
+      >
+        <img
+          alt="Logo Bedland"
+          src="/src/assets/img/LogoManager.svg"
+        />
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+            data-testid="dropdown"
+          >
+            <img
+              alt="profile"
+              class="c3"
+              size="2"
+              src="/src/assets/img/Avatar.svg"
+            />
+            <div
+              class="c4"
+            >
+              <h5
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              />
+              <h5
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+              >
+                manager
+              </h5>
+            </div>
+            <svg
+              data-testid="more-icon"
+              fill="none"
+              height="20"
+              viewBox="0 0 20 20"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-more"
+              />
+              <path
+                d="M10 9.99251V10.0075M10 4V4.01498M10 15.985V16"
+                stroke="#1B1A1A"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.68161"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Header > headers renders correctly for logged in resident 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.c1 {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 1rem;
+  height: 70px;
+  margin-right: 2rem;
+  min-width: 11.5rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<body>
+    <div>
+      <nav>
+        <div
+          class="c0"
+        >
+          <img
+            alt="Logo Bedland"
+            src="/src/assets/img/LogoResident.svg"
+          />
+          <div
+            class="c1"
+          >
+            <div
+              class="c2"
+              data-testid="dropdown"
+            >
+              <img
+                alt="profile"
+                class="c3"
+                size="2"
+                src="/src/assets/img/Avatar.svg"
+              />
+              <div
+                class="c4"
+              >
+                <h5
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+                />
+                <h5
+                  style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+                >
+                  resident
+                </h5>
+              </div>
+              <svg
+                data-testid="more-icon"
+                fill="none"
+                height="20"
+                viewBox="0 0 20 20"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask-more"
+                />
+                <path
+                  d="M10 9.99251V10.0075M10 4V4.01498M10 15.985V16"
+                  stroke="#1B1A1A"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.68161"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.c1 {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 1rem;
+  height: 70px;
+  margin-right: 2rem;
+  min-width: 11.5rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<div>
+    <nav>
+      <div
+        class="c0"
+      >
+        <img
+          alt="Logo Bedland"
+          src="/src/assets/img/LogoResident.svg"
+        />
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+            data-testid="dropdown"
+          >
+            <img
+              alt="profile"
+              class="c3"
+              size="2"
+              src="/src/assets/img/Avatar.svg"
+            />
+            <div
+              class="c4"
+            >
+              <h5
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+              />
+              <h5
+                style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+              >
+                resident
+              </h5>
+            </div>
+            <svg
+              data-testid="more-icon"
+              fill="none"
+              height="20"
+              viewBox="0 0 20 20"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-more"
+              />
+              <path
+                d="M10 9.99251V10.0075M10 4V4.01498M10 15.985V16"
+                stroke="#1B1A1A"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.68161"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Header > headers renders correctly for logged out user 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<body>
+    <div>
+      <nav>
+        <div
+          class="c0"
+        >
+          <img
+            alt="Logo Bedland"
+            src="/src/assets/img/LogoResident.svg"
+          />
+        </div>
+      </nav>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+<div>
+    <nav>
+      <div
+        class="c0"
+      >
+        <img
+          alt="Logo Bedland"
+          src="/src/assets/img/LogoResident.svg"
+        />
+      </div>
+    </nav>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Image > snapshot renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 17.625rem;
+  width: 22.5rem;
+}
+
+<img
+  alt="image"
+  className="c0"
+  src="/src/assets/img/Loginlogo.svg"
+/>
+`;

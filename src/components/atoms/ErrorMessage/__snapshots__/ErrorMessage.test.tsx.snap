@@ -1,0 +1,203 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorMessage > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 5px;
+}
+
+<body>
+    <div>
+      <span
+        class="c0"
+      >
+        <div
+          style="display: flex;"
+        >
+          <svg
+            data-testid="alert-icon"
+            fill="none"
+            height="20"
+            viewBox="0 0 21 20"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask-alert"
+            />
+            <path
+              d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+              stroke="#FF4438"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.66667"
+            />
+            <path
+              d="M10.5001 14.1666C10.9603 14.1666 11.3334 13.7935 11.3334 13.3333C11.3334 12.8731 10.9603 12.5 10.5001 12.5C10.0398 12.5 9.66675 12.8731 9.66675 13.3333C9.66675 13.7935 10.0398 14.1666 10.5001 14.1666Z"
+              stroke="#FF4438"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.66667"
+            />
+            <path
+              d="M10.5 5.83331V9.99998"
+              stroke="#FF4438"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.66667"
+            />
+          </svg>
+        </div>
+        <p
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 68, 56);"
+        >
+          Error message
+        </p>
+      </span>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 5px;
+}
+
+<div>
+    <span
+      class="c0"
+    >
+      <div
+        style="display: flex;"
+      >
+        <svg
+          data-testid="alert-icon"
+          fill="none"
+          height="20"
+          viewBox="0 0 21 20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <mask
+            id="mask-alert"
+          />
+          <path
+            d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+            stroke="#FF4438"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.66667"
+          />
+          <path
+            d="M10.5001 14.1666C10.9603 14.1666 11.3334 13.7935 11.3334 13.3333C11.3334 12.8731 10.9603 12.5 10.5001 12.5C10.0398 12.5 9.66675 12.8731 9.66675 13.3333C9.66675 13.7935 10.0398 14.1666 10.5001 14.1666Z"
+            stroke="#FF4438"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.66667"
+          />
+          <path
+            d="M10.5 5.83331V9.99998"
+            stroke="#FF4438"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.66667"
+          />
+        </svg>
+      </div>
+      <p
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.875rem; line-height: 1.4; letter-spacing: 1px; color: rgb(255, 68, 56);"
+      >
+        Error message
+      </p>
+    </span>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

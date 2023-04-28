@@ -1,0 +1,187 @@
+{
+  "manager": [
+    {
+      "id": 1,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "jkowalski",
+      "password": "pomarańdż",
+      "name": "Janusz",
+      "lastName": "Kowalski",
+      "email": "janush.kowal@email.com",
+      "phoneNumber": "555666777"
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "jwick",
+      "password": "notthedogplease",
+      "name": "John",
+      "lastName": "Wick",
+      "email": "john.wick@email.com",
+      "phoneNumber": "321654987"
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "anowak",
+      "password": "1234",
+      "name": "Anna",
+      "lastName": "Nowak",
+      "email": "anowak@email.com",
+      "phoneNumber": "427657548"
+    },
+    {
+      "id": 4,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "sstefan",
+      "password": "password",
+      "name": "Stefan",
+      "lastName": "Stefan",
+      "email": "stefanx2@email.com",
+      "phoneNumber": "213721372"
+    },
+    {
+      "login": "aBray",
+      "password": "AlBray",
+      "id": 5
+    },
+    {
+      "login": "aBray",
+      "password": "AlBray",
+      "id": 6
+    },
+    {
+      "login": "aBray",
+      "password": "AlBray",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "login": "testmanager",
+      "password": "!Test123!",
+      "name": "Jack",
+      "lastName": "Sparrow",
+      "email": "jackx@email.com",
+      "phoneNumber": "213721372",
+      "role": "manager"
+    }
+  ],
+  "member": [
+    {
+      "id": 1,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "iSutherland",
+      "password": "IsABEl",
+      "name": "Isabel",
+      "lastName": "Sutherland",
+      "email": "isabel.sutherland@email.com",
+      "phoneNumber": "123456789",
+      "flatId": 1,
+      "owner": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "clWeiss",
+      "password": "ClWeiss",
+      "name": "Claude",
+      "lastName": "Weiss",
+      "email": "Claude.Weiss@email.com",
+      "phoneNumber": "123456789",
+      "flatId": 2,
+      "owner": false
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "aBray",
+      "password": "AlBray",
+      "name": "Alyssia",
+      "lastName": "Bray",
+      "email": "Alyssia.Bray@email.com",
+      "phoneNumber": "123456789",
+      "flatId": 3,
+      "owner": false
+    },
+    {
+      "id": 4,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "aPerry",
+      "password": "IsABEl",
+      "name": "Ashton",
+      "lastName": "Perry",
+      "email": "Ashton.Perry@email.com",
+      "phoneNumber": "123456789",
+      "flatId": 4,
+      "owner": true
+    },
+    {
+      "id": 5,
+      "version": 0,
+      "createDate": "2023-02-14T00:00:00",
+      "updateDate": "2023-02-14T00:00:00",
+      "login": "iPerry",
+      "password": "IsABEl",
+      "name": "Isabel",
+      "lastName": "Perry",
+      "email": "isabel.perry@email.com",
+      "phoneNumber": "123456789",
+      "flatId": 4,
+      "owner": false
+    },
+    {
+      "id": 6,
+      "login": "testmember",
+      "password": "!Test123!",
+      "name": "Jack",
+      "lastName": "Sparrow",
+      "email": "jackx@email.com",
+      "phoneNumber": "213721372",
+      "role": "resident",
+      "flatId": 4,
+      "owner": false
+    }
+  ],
+  "flat": [
+    {
+      "id": 1,
+      "version": 1,
+      "buildingId": 1,
+      "number": "1a",
+      "floor": 1,
+      "shapePath": "1. yes sire"
+    },
+    {
+      "id": 2,
+      "version": 2,
+      "buildingId": 2,
+      "number": "2a",
+      "floor": 2,
+      "shapePath": "2. yes sire"
+    },
+    {
+      "id": 3,
+      "version": 3,
+      "buildingId": 3,
+      "number": "3a",
+      "floor": 3,
+      "shapePath": "3. yes sire"
+    }
+  ]
+}

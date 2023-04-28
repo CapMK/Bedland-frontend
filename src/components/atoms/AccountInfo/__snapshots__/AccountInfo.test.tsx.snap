@@ -1,0 +1,269 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Account info > renders correctly for role manager 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+        >
+          John Doe
+        </h5>
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+        >
+          manager
+        </h5>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <h5
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+      >
+        John Doe
+      </h5>
+      <h5
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+      >
+        manager
+      </h5>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Account info > renders correctly for role resident 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+        >
+          John Doe
+        </h5>
+        <h5
+          style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+        >
+          resident
+        </h5>
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <h5
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 600; font-size: 0.875rem; line-height: 1.4; letter-spacing: 0; color: rgb(27, 26, 26);"
+      >
+        John Doe
+      </h5>
+      <h5
+        style="font-family: Source Sans Pro, sans-serif; font-weight: 400; font-size: 0.75rem; line-height: 1.4; letter-spacing: 0; color: rgb(75, 75, 75);"
+      >
+        resident
+      </h5>
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

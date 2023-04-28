@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input with Label > renders correctly 1`] = `
+.c2 {
+  border: 1px solid #919AFF;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.875rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  width: 19.875rem;
+}
+
+.c2:disabled,
+.c2:hover,
+.c2:active,
+.c2:focus {
+  outline: none;
+}
+
+.c1 {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.6875rem;
+  width: 19.875rem;
+}
+
+<form
+  action=""
+>
+  <div
+    className="c0"
+  >
+    <label
+      className="c1"
+      htmlFor="login"
+      size="medium"
+    >
+      login
+    </label>
+    <input
+      className="c2"
+      data-testid="login"
+      id="login"
+      name="login"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="login"
+      type="text"
+    />
+  </div>
+</form>
+`;

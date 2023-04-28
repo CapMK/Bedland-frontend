@@ -1,0 +1,289 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchBar > SearchBar component > should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 1px solid transparent;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.375rem 0rem 0.375rem 0.875rem;
+  width: 17.5rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0.5625rem;
+  height: 1.75rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c2 {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.c3 {
+  position: relative;
+}
+
+<body>
+    <div>
+      <div>
+        <div
+          data-testid="testDiv"
+        >
+          SomeTest
+        </div>
+        <div>
+          <div
+            class="c0"
+          >
+            <div
+              class="c1"
+            >
+              <svg
+                data-testid="search-icon"
+                fill="none"
+                height="20"
+                viewBox="0 0 16 16"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask-search"
+                />
+                <path
+                  d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                  stroke="#4B4B4B"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.15972"
+                />
+              </svg>
+              <input
+                class="c2"
+                data-testid="SearchBarInput"
+                placeholder="Search..."
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="c3"
+          />
+        </div>
+        , 
+      </div>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 1px solid transparent;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.375rem 0rem 0.375rem 0.875rem;
+  width: 17.5rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0.5625rem;
+  height: 1.75rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c2 {
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.c3 {
+  position: relative;
+}
+
+<div>
+    <div>
+      <div
+        data-testid="testDiv"
+      >
+        SomeTest
+      </div>
+      <div>
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+          >
+            <svg
+              data-testid="search-icon"
+              fill="none"
+              height="20"
+              viewBox="0 0 16 16"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask-search"
+              />
+              <path
+                d="M14.6666 14.6666L11.2916 11.2916M11.2916 11.2916C11.8333 10.7499 12.263 10.1068 12.5562 9.39907C12.8494 8.6913 13.0003 7.93272 13.0003 7.16664C13.0003 6.40055 12.8494 5.64197 12.5562 4.9342C12.263 4.22644 11.8333 3.58334 11.2916 3.04164C10.7499 2.49994 10.1068 2.07023 9.39907 1.77707C8.6913 1.4839 7.93272 1.33301 7.16664 1.33301C6.40055 1.33301 5.64197 1.4839 4.9342 1.77707C4.22644 2.07023 3.58334 2.49994 3.04164 3.04164C1.94762 4.13566 1.33301 5.61946 1.33301 7.16664C1.33301 8.71381 1.94762 10.1976 3.04164 11.2916C4.13566 12.3857 5.61946 13.0003 7.16664 13.0003C8.71381 13.0003 10.1976 12.3857 11.2916 11.2916Z"
+                stroke="#4B4B4B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.15972"
+              />
+            </svg>
+            <input
+              class="c2"
+              data-testid="SearchBarInput"
+              placeholder="Search..."
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="c3"
+        />
+      </div>
+      , 
+    </div>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

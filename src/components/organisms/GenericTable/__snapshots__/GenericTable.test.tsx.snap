@@ -1,0 +1,2381 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Generic Table > buildings table  renders correctly with selects 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #30BA57;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF4438;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c3 {
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  color: #1B1A1A;
+}
+
+.c5 {
+  background-color: 1px solid #FF4438;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c1:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+<body>
+    <div>
+      <table
+        class="table css-13nd26z-Table"
+        data-table-library_table=""
+        role="grid"
+      >
+        <thead
+          class="thead css-1dpsum1-Header"
+          role="rowgroup"
+        >
+          <tr
+            class="tr tr-header css-o9t41z-getHeaderRowContainerStyle-HeaderRow"
+            data-table-library_tr-header=""
+            role="rowheader"
+          >
+            <th
+              class="th stiff css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Flats Number
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Floor
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Residents
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Monthly Payments
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Last Maintenance
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div />
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="tbody css-1cjq6h-Body"
+          data-table-library_body=""
+        >
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #1
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                1
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c0"
+                  >
+                    Submitted
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #2
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                2
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c2 c3"
+                  >
+                    Incomplete
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <input
+                  class="css-e0dnmk"
+                  type="checkbox"
+                />
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #3
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                3
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c4 c5"
+                  >
+                    Arrearage
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #30BA57;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF4438;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c3 {
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  color: #1B1A1A;
+}
+
+.c5 {
+  background-color: 1px solid #FF4438;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c1:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+<div>
+    <table
+      class="table css-13nd26z-Table"
+      data-table-library_table=""
+      role="grid"
+    >
+      <thead
+        class="thead css-1dpsum1-Header"
+        role="rowgroup"
+      >
+        <tr
+          class="tr tr-header css-o9t41z-getHeaderRowContainerStyle-HeaderRow"
+          data-table-library_tr-header=""
+          role="rowheader"
+        >
+          <th
+            class="th stiff css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Flats Number
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Floor
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Residents
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Monthly Payments
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Last Maintenance
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div />
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="tbody css-1cjq6h-Body"
+        data-table-library_body=""
+      >
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #1
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              1
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c0"
+                >
+                  Submitted
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #2
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              2
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c2 c3"
+                >
+                  Incomplete
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body row-select row-select-clickable clickable css-182qcne-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td stiff css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <input
+                class="css-e0dnmk"
+                type="checkbox"
+              />
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #3
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              3
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c4 c5"
+                >
+                  Arrearage
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Generic Table > buildings table  renders correctly without selects 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #30BA57;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF4438;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c3 {
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  color: #1B1A1A;
+}
+
+.c5 {
+  background-color: 1px solid #FF4438;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c1:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+<body>
+    <div>
+      <table
+        class="table css-1hzexy7-Table"
+        data-table-library_table=""
+        role="grid"
+      >
+        <thead
+          class="thead css-1dpsum1-Header"
+          role="rowgroup"
+        >
+          <tr
+            class="tr tr-header css-pdmx8e-getHeaderRowContainerStyle-HeaderRow"
+            data-table-library_tr-header=""
+            role="rowheader"
+          >
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Flats Number
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Floor
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Residents
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Monthly Payments
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div>
+                Last Maintenance
+              </div>
+            </th>
+            <th
+              class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+              data-hide="false"
+              data-resize-min-width="75"
+              data-table-library_th=""
+              role="columnheader"
+            >
+              <div />
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="tbody css-1cjq6h-Body"
+          data-table-library_body=""
+        >
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #1
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                1
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c0"
+                  >
+                    Submitted
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #2
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                2
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c2 c3"
+                  >
+                    Incomplete
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+            data-table-library_tr-body=""
+            role="row"
+          >
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                #3
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                3
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="font-weight: bold;"
+                >
+                  John Paul II
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Keanu Reeves
+                </div>
+                <div
+                  style="font-weight: normal;"
+                >
+                  Arnold Schwarzeneger
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  style="width: 97px;"
+                >
+                  <div
+                    class="c4 c5"
+                  >
+                    Arrearage
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                11/17/1995
+              </div>
+            </td>
+            <td
+              class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+              data-table-library_td=""
+              role="gridcell"
+            >
+              <div>
+                <div
+                  class=""
+                  style="width: 2.5rem;"
+                >
+                  <button
+                    class="c1"
+                    style="padding: 10px 10px;"
+                  >
+                    <svg
+                      data-testid="edit-icon"
+                      fill="none"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask-edit"
+                      />
+                      <path
+                        d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                        stroke="#FCFEFF"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.39"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        data-testid="location-display"
+      >
+        /
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #30BA57;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #1B1A1A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FF4438;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.c3 {
+  background-color: #FFD541;
+  border: 1px solid transparent;
+  color: #1B1A1A;
+}
+
+.c5 {
+  background-color: 1px solid #FF4438;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4553DD;
+  border: 1px solid #4553DD;
+  border-radius: 0.5rem;
+  color: #FCFEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5625rem 1rem;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c1:hover {
+  background-color: #6573FF;
+  border: 1px solid #6573FF;
+}
+
+<div>
+    <table
+      class="table css-1hzexy7-Table"
+      data-table-library_table=""
+      role="grid"
+    >
+      <thead
+        class="thead css-1dpsum1-Header"
+        role="rowgroup"
+      >
+        <tr
+          class="tr tr-header css-pdmx8e-getHeaderRowContainerStyle-HeaderRow"
+          data-table-library_tr-header=""
+          role="rowheader"
+        >
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Flats Number
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Floor
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Residents
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Monthly Payments
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div>
+              Last Maintenance
+            </div>
+          </th>
+          <th
+            class="th css-neotqs-HEADER_CELL_CONTAINER_STYLE-HeaderCell"
+            data-hide="false"
+            data-resize-min-width="75"
+            data-table-library_th=""
+            role="columnheader"
+          >
+            <div />
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="tbody css-1cjq6h-Body"
+        data-table-library_body=""
+      >
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #1
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              1
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c0"
+                >
+                  Submitted
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #2
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              2
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c2 c3"
+                >
+                  Incomplete
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="tr tr-body css-1u6rcw7-getRowContainerStyle-Row"
+          data-table-library_tr-body=""
+          role="row"
+        >
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              #3
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              3
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="font-weight: bold;"
+              >
+                John Paul II
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Keanu Reeves
+              </div>
+              <div
+                style="font-weight: normal;"
+              >
+                Arnold Schwarzeneger
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                style="width: 97px;"
+              >
+                <div
+                  class="c4 c5"
+                >
+                  Arrearage
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              11/17/1995
+            </div>
+          </td>
+          <td
+            class="td css-19oyx4t-CELL_CONTAINER_STYLE-Cell"
+            data-table-library_td=""
+            role="gridcell"
+          >
+            <div>
+              <div
+                class=""
+                style="width: 2.5rem;"
+              >
+                <button
+                  class="c1"
+                  style="padding: 10px 10px;"
+                >
+                  <svg
+                    data-testid="edit-icon"
+                    fill="none"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask-edit"
+                    />
+                    <path
+                      d="M12.1667 5.00004L14.0775 3.0892C14.2338 2.93298 14.4457 2.84521 14.6667 2.84521C14.8877 2.84521 15.0996 2.93298 15.2559 3.0892L17.4109 5.2442C17.5671 5.40048 17.6549 5.6124 17.6549 5.83337C17.6549 6.05434 17.5671 6.26626 17.4109 6.42254L15.5 8.33337M12.1667 5.00004L4.07754 13.0892C3.92125 13.2454 3.83342 13.4574 3.83337 13.6784V15.8334C3.83337 16.0544 3.92117 16.2663 4.07745 16.4226C4.23373 16.5789 4.44569 16.6667 4.66671 16.6667H6.82171C7.0427 16.6667 7.25463 16.5788 7.41087 16.4225L15.5 8.33337M12.1667 5.00004L15.5 8.33337"
+                      stroke="#FCFEFF"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.39"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      data-testid="location-display"
+    >
+      /
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RulesDescription > renders correctly 1`] = `
+.c0 {
+  padding: 0rem 2px 0rem 2.9375rem;
+  width: 100%;
+}
+
+.c1 {
+  liststyletype: disc;
+  margin-left: 10px;
+  padding: 0 0 0 1rem;
+}
+
+<div
+  className="c0"
+>
+  <span>
+     Remember, your password must include:
+  </span>
+   
+  <ol
+    className="c1"
+    style={
+      {
+        "listStyleType": "disc",
+      }
+    }
+  >
+    <li>
+      8-24 characters
+    </li>
+    <li>
+      At least one uppercase character
+    </li>
+    <li>
+      At least one special character
+    </li>
+  </ol>
+</div>
+`;
